@@ -1,0 +1,191 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ELEMENTO BASE*/
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+/*"header" é uma tag html. Toda vez que eu me referir a um tag html no css, basta colocar o nome dela. E toda vez que eu quiser me referir a uma "class" (classe), uso .*/
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color:var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*FILME PRINCIPAL*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-hotel-del-luna.jpg');
+    
+    height: 550px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.filme-principal .logo-filme{
+    width: 50%;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 3%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 50%;
+    margin-top: 20px;
+}
+
+/*FILMES POR GÊNERO: EM ALTA, DRAMAS, FILMES E VARIEDADES, RESPECTIVAMENTE*/
+
+.filme-principal .em-alta{
+    font-size: 25px;
+    padding-top: 3%;
+    margin-left: 20px;
+    margin-bottom: 1%;
+}
+
+.filme-principal .em-alta:hover{
+    font-size: 30px;
+    transition: .3s ease all;
+}
+
+.dramas{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.dramas:hover{
+    font-size: 30px;
+    transition: .3s ease all;
+}
+
+.filmes{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.filmes:hover{
+    font-size: 30px;
+    transition: .3s ease all;
+}
+
+.variedades{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.variedades:hover{
+    font-size: 30px;
+    transition: .3s ease all;
+}
+
+.boxfilme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+/*CONTATOS*/
+
+.opcao-contatos{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.opcao-contatos:hover{
+    font-size: 30px;
+    transition: .3s ease all;
+}
+
+.lista-de-contatos{
+    list-style-type: circle;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.lista-de-contatos li a{
+    text-decoration: none;
+}
