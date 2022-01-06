@@ -1,7 +1,13 @@
-@media screen and (max-width:830px){
+@media screen and (max-width:831px){
     header .container{
     display: flex;
     flex-direction: column;    
+    }
+
+    .segundo-menu{
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 8px;
     }
 
     .botao{
@@ -13,5 +19,11 @@
 @media screen and (min-width: 1000px){
     .descricao{
         width: 50%;
+    }
+}
+
+@media (max-width: 991px){
+    .trailer video{
+        max-width: 90%;
     }
 }

@@ -22,6 +22,14 @@ Em síntese, o que foi adicionado ou alterado na interface foram os seguintes el
 - Seção de contatos no final da página;
 - Após algumas alterações, o site ainda mantém a responsividade em celulares ou janelas de tamanhos menores.
 
+## ⭐ O que foi adicionado na versão 2.0?
+
+- Ao clicar no botão "ASSISTIR AGORA", irá abrir uma pop-up com o "trailer" da série "Hotel Del Luna". Por conta dos direitos autorais, decidi colocar [outro vídeo](https://www.pexels.com/video/nature-tree-flower-cherry-blossom-4182664/) no lugar do [trailer da série](https://www.youtube.com/watch?v=iDzR6twXE_E&t=7s);
+- Os menus de "Início", "Dramas", "Filmes" e "Variedades" foram colocados do lado esquerdo, perto da logo, assim como na Netflix;
+- Adicionado do lado direito os ícones de "Pesquisa", "Notificação" e "Perfil" semelhantes aos da Netflix;
+- A barra dos menus de navegação citados acima possuem responsividade;
+- Reorganizados alguns arquivos e pastas do projeto.
+
 ## 💬 Observação
 
 Não tenho nenhuma relação com o site [MyDramaList](https://mydramalist.com), decidi colocar no meu projeto, pois, além de gostar do site, queria dar vida ao catálogo com links clicáveis. ^^

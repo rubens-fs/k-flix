@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+    
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+    <title>K-FLIX (A NETFLIX clone)</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">K-FLIX</h2>
+            <nav class="primeiro-menu">
+                <a href="#" target="">Início</a>
+                <a href="#dramas" target="">Dramas</a>
+                <a href="#filmes" target="">Filmes</a>
+                <a href="#variedades" target="">Variedades</a>
+            </nav>
+            <nav class="segundo-menu">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-users"></i>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <img src="/img/logo-hotel-del-luna.png" alt="Hotel Del Luna Render" class="logo-filme">
+                <h3 class="titulo">Assista à temporada 1 agora!</h3>
+                <p class="descricao">Convidado para gerenciar um hotel para almas penadas, ele acaba conhecendo a antiga proprietária do lugar e seu mundo sobrenatural.</p>
+                <div class="botoes">
+                    <a href="#" onclick="toggle();">
+                        <button type="button" role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                        </button>
+                    </a>
+                        <div class="trailer">
+                            <video src="/video/sample_video.mp4" controls="true"></video>
+                            <img src="/img/window-close-solid.svg" class="close" onclick="toggle();" alt="Window Close">
+                        </div>
+                    <a href="https://mydramalist.com/32925-hotel-del-luna" target="_blank" rel="noopener noreferrer">
+                        <button type="button" role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                        </button>
+                    </a>
+                </div>
+            </div>
+        <h4 class="em-alta">Em alta...</h4>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <a href="https://mydramalist.com/24678-because-this-is-my-first-life" target="_blank" rel="noopener noreferrer">
+                <div class="item">
+                        <img class="box-filme" src="/img/image1d.jpg" alt="Porque Esta é a Minha Primeira Vida (2017)" srcset="">
+                </div>
+            </a>         
+            <a href="https://mydramalist.com/25568-knowing-bros" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image1v.jpg" alt="Homens Com Missão (2015)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/992-old-boy" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image1f.jpg" alt="Old Boy (2003)" srcset="">
+                </div>
+            </a> 
+            <a href="https://mydramalist.com/32925-hotel-del-luna" target="_blank" rel="noopener noreferrer"> 
+                <div class="item">
+                        <img class="box-filme" src="/img/image2d.jpg" alt="Hotel Del Luna (2019)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/25617-produce-101-season-1" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image2v.jpg" alt="Produce 101: Season 1 (2016)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/23429-parasite" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image2f.jpg" alt="Parasita (2019)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/49809-hello-mom" target="_blank" rel="noopener noreferrer">   
+                <div class="item">
+                        <img class="box-filme" src="/img/image3d.jpg" alt="Uma Segunda Chance (2020)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/25620-produce-101-season-2" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image3v.jpg" alt="Produce 101: Season 2 (2017)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/31212-call" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image3f.jpg" alt="A Ligação (2020)" srcset="">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <h5 id="dramas" class="dramas">Dramas</h5>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <a href="https://mydramalist.com/24678-because-this-is-my-first-life" target="_blank" rel="noopener noreferrer">
+                <div class="item">
+                        <img class="box-filme" src="/img/image1d.jpg" alt="Porque Esta é a Minha Primeira Vida (2017)" srcset="">
+                </div>
+            </a>         
+            <a href="https://mydramalist.com/32925-hotel-del-luna" target="_blank" rel="noopener noreferrer"> 
+                <div class="item">
+                        <img class="box-filme" src="/img/image2d.jpg" alt="Hotel Del Luna (2019)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/49809-hello-mom" target="_blank" rel="noopener noreferrer">   
+                <div class="item">
+                        <img class="box-filme" src="/img/image3d.jpg" alt="Uma Segunda Chance (2020)" srcset="">
+                </div>
+            </a> 
+            <a href="https://mydramalist.com/62085-a-wonderful-rumor" target="_blank" rel="noopener noreferrer">   
+                <div class="item">
+                        <img class="box-filme" src="/img/image4d.jpg" alt="Caçadores de Demônios (2020)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/34221-human-lessons" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image5d.jpg" alt="Extracurricular (2020)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/36269-doctor-playbook" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image6d.jpg" alt="Hospital Playlist (2020)" srcset="">
+                </div>
+            </a>
+            <a href="https://mydramalist.com/6756-the-masters-sun" target="_blank" rel="noopener noreferrer">  
+                <div class="item">
+                        <img class="box-filme" src="/img/image7d.jpg" alt="Sol do Mestre (2013)" srcset="">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <h5 id="filmes" class="filmes">Filmes</h5>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <a href="https://mydramalist.com/992-old-boy" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image1f.jpg" alt="Old Boy (2003)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/23429-parasite" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image2f.jpg" alt="Parasita (2019)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/31212-call" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image3f.jpg" alt="A Ligação (2020)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/29367-the-witch" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image4f.jpg" alt="A Bruxa: Parte 1. A Subversão (2018)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/11314-train-to-busan" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image5f.jpg" alt="Invasão Zumbi (2016)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/31612-hunting-time" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image6f.jpg" alt="Tempo de Caça (2020)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/70093-blackpink-light-up-the-sky" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image7f.jpg" alt="BLACKPINK: Light Up the Sky (2020)" srcset="">
+                        </div>
+                </a>
+        </div>
+    </div>
+
+    <h5 id="variedades" class="variedades">Variedades</h5>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <a href="https://mydramalist.com/25568-knowing-bros" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image1v.jpg" alt="Homens Com Missão (2015)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/25617-produce-101-season-1" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image2v.jpg" alt="Produce 101: Season 1 (2016)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/25620-produce-101-season-2" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image3v.jpg" alt="Produce 101: Season 2 (2017)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/27020-produce-48" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image4v.jpg" alt="Produce 48 (2018)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/39339-queendom" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image5v.jpg" alt="Queendom (2019)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/25732-hit-the-stage" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image6v.jpg" alt="Hit the Stage (2016)" srcset="">
+                        </div>
+                </a>
+                <a href="https://mydramalist.com/29764-dancing-high" target="_blank" rel="noopener noreferrer">  
+                        <div class="item">
+                                <img class="box-filme" src="/img/image7v.jpg" alt="Dancing High (2018)" srcset="">
+                        </div>
+                </a>
+        </div>
+    </div>
+
+    <footer>
+        <header>
+            <h6 class="opcao-contatos">Contatos</h6>
+        </header>
+        <ul class="lista-de-contatos">
+            <li>
+                <a href="https://github.com/rubens-fs" target="_blank" rel="noopener noreferrer">Github</a><br/>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/rubens-fs/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br/>
+            </li>
+        </ul>
+    </footer>
+
+
+    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script>
+    <script src="/js/index.js"></script>
+    
+
+
+</body>
+</html>
+
+<!--$ é o jquery, manipulação de elementos em tela-->
