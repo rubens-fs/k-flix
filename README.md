@@ -30,6 +30,16 @@ Em síntese, o que foi adicionado ou alterado na interface foram os seguintes el
 - A barra dos menus de navegação citados acima possuem responsividade;
 - Reorganizados alguns arquivos e pastas do projeto.
 
+## 💻 Imagens
+
+- Demonstração da barra de navegação com flexbox e de outros elementos da página com responsividade:
+
+![Flexbox](img/flexbox.gif)
+
+- Responsividade no player de vídeo:
+
+![Video](img/video-responsive.gif)
+
 ## 💬 Observação
 
 Não tenho nenhuma relação com o site [MyDramaList](https://mydramalist.com), decidi colocar no meu projeto, pois, além de gostar do site, queria dar vida ao catálogo com links clicáveis. ^^
